@@ -1,0 +1,89 @@
+
+.topTab {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.actionBar {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.actionBarBack {
+    display: flex;
+    white-space: nowrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    padding-left: 13px;
+    background-color: white;
+    top: 0px;
+}
+.tabItem{
+    font-weight: 500;
+    font-size: 13px;
+    color:grey
+}
+.tabItemActive{
+    font-weight: 500;
+    font-size: 13px;
+    color:black
+}
+.dot{
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: rgb(36, 195, 216);
+    align-self: center;
+    margin-left: 7px;
+}
+.rowDot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    margin-left: 7px;
+}
+.leftSide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon{
+    margin-left: 3px;
+    margin-right: 7px;
+}
+.input[type=text] {
+    width: 0vw;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 0px;
+    font-size: 16px;
+    background-color: #F0F0F0;
+    transition: 4s ;
+    position: fixed;
+    right: 50px;
+    -webkit-transition: width 0.4s ;
+    
+  }
+  
+  .input[type=text]:focus {
+    width: 40%;
+    outline: none;
+    border-width: 0px 0px 2px 0px;
+
+
+    
+  }
+ 

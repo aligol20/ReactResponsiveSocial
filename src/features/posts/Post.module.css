@@ -1,0 +1,110 @@
+.postList{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+.avatar{
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+  padding:1px;
+  border:1px solid grey;
+  background-color:white;}
+.userName{
+  font-size: 3vw;
+}
+.button {
+  border-width: 0px;
+  margin: 3px;
+  background-color: white ;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.userPostList{
+  display: flex;
+  flex-direction: column;
+
+}
+.postItem{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.postImage {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 1px;
+}
+.likes{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 13px;
+}
+.likeIcon{
+  padding-right: 7px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.date{
+  color: grey;
+  font-size: 5vw;
+
+}
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 13px;
+}
+.tag{
+  border-radius: 13px;
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 3px;
+  background-color: orange;
+  font-size: 3vw;
+
+}
+.postText{
+  text-align: left;
+  width: 100%;
+  padding-left: 13px;
+margin-bottom: 13px;
+font-size: 7vw;
+
+}
+.link{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 95%;
+  align-items: flex-start;
+  width: 95%;
+}
+.linkButton{
+  background-color: blueviolet;
+  font-size: 5vw;
+  border-radius: 0pt;
+  text-decoration-color: white;
+  border-radius: 7px;
+  padding: 3px;
+  align-self: flex-start;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+.buttonText{
+  color: white;
+  font-size: 3vw;
+}
